@@ -58,7 +58,7 @@ namespace LV6app1
                 //      result = await DoSomeTask().ConfigureAwait(false)
 
 
-                HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest);
+                HttpResponseMessage response = await client.PostAsJsonAsync("", scoreRequest).ConfigureAwait(false);
 
                 if (response.IsSuccessStatusCode)
                 {
