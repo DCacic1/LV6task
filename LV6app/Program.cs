@@ -35,7 +35,7 @@ namespace LV6app
                             new StringTable()
                             {
                                 ColumnNames = new string[] {"MPG", "Cyl", "Displacement", "Horsepower", "Weight", "Acceleration", "Year", "CountryCode", "Model"},
-                                Values = new string[,] {  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
+                                Values = new string[,] {  { "19", "6", "232", "100", "2637", "13", "71", "1", "amc gremlin" },  { "0", "0", "0", "0", "0", "0", "0", "0", "value" },  }
                             }
                         },
                     },
